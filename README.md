@@ -4,7 +4,7 @@
 
 
 
-- [Basic html/js counter with saved numbers.](https://website-name.com) 
+- [Basic html/js counter with saved numbers.](https://github.com/Dvdovina/FoundationsPractice/tree/simpleCounter) 
 
 
 
