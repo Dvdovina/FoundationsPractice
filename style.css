@@ -1,0 +1,66 @@
+body {
+    align-items: center;
+    background-image: url("clock.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    background: rgb(222, 207, 172, 0.3);
+    border-radius: 10px;
+    border: 2px solid rgb(108, 90, 81);
+    box-shadow: 0 0 0 2px rgb(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+p {
+    max-width: 80%;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 10px;
+    border: .7px solid black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    min-width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button:active {
+    box-shadow: 0 3px #460707;
+    transform: translateY(2px);
+}
+
+#increment-btn {
+    background: rgb(95, 44, 5);
+}
+
+#save-btn {
+    background: rgb(4, 52, 4);
+}
